@@ -1,3 +1,42 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
+}
+.main-title, li, .nav-title {
+  color: white;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #21222A;
+  height: 90px;
+  padding: 0 25px;
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 7px;
+}
+.logo-text {
+  color: #61DBFB;
+}
+.nav-title {
+  font-weight: 600;
+}
+
+.main-content {
+  background-color: #282D35;
+  padding: 30px 50px 30% 20px;
+}
+.main-title {
+  margin: 0;
+}
+li {
+  margin: 12px;
+  font-size: 15px;  
+  font-weight: 400;
 }
