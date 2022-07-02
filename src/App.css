@@ -30,13 +30,32 @@ nav {
 
 .main-content {
   background-color: #282D35;
-  padding: 30px 50px 30% 20px;
+  padding: 30px 0 25% 20px;
 }
 .main-title {
   margin: 0;
 }
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  height: 190px;
+}
 li {
-  margin: 12px;
-  font-size: 15px;  
+  font-size: 15px;
+  max-width: 400px;
+  line-height: 14px;
   font-weight: 400;
+  padding-block: 10px;
+}
+::marker {
+  color:#61DBFB;
+  font-size: 1.2rem;
+  margin-top: 30px;
+}
+.gray-logo {
+  height: 180px;
+  width: 180px;
+  margin-right: -90px;
 }
